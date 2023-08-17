@@ -1,0 +1,91 @@
+/* The @import rule below imports the Playfair Display and Source Sans Pro fonts into the stylesheet. You don't have to edit this line.*/
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@400&display=swap");
+
+body {
+  color: #000305;
+  font-family: "New Roman", Times, serif;
+  padding: 40px;
+}
+/* Set the font family for any h1, h2, or h3 heading */
+h1 {
+  text-align: center;
+  font-family: "New Roman", Times, serif;
+  color: black;
+}
+h2 {
+  text-align: center;
+  font-family: "New Roman", Times;
+  color: black;
+}
+h3 {
+  text-align: center;
+  font-family: "New Roman", Times;
+}
+h5 {
+  text-align: center;
+  word-spacing: 3ex;
+  color: red;
+  font-family: "New Roman", Times, serif;
+}
+article {
+  text-align: center;
+  padding: 30px 0;
+}
+article div {
+  text-align: center;
+  width: 100%;
+}
+body {
+  background-color: #eae2b7;
+  text-align: center;
+  color: black;
+}
+p {
+  text-align: left;
+  line-height: 1.5;
+}
+ol {
+  text-align: left;
+}
+ul,
+li {
+  margin-left: 0;
+  text-align: left;
+}
+
+/* The div container constrains the content width within the main container to 600px */
+body {
+  margin: auto;
+  width: 600px;
+  color: black;
+}
+img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+}
+nav {
+  color: black;
+}
+header {
+  text-align: center;
+  word-spacing: 4px;
+  color: black;
+}
+
+/* Add your solution below  here*/
+footer {
+  text-align: center;
+}
+a:link {
+  color: #d62828;
+}
+a:hover {
+  color: #f77f00;
+}
+.image-circle {
+  border-radius: 50%;
+  border: 2px solid #003049;
+  padding: 1px;
+  margin: 3px;
+}
